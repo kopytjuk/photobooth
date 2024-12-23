@@ -32,3 +32,8 @@
   font-weight: 700;
   src: url('../fonts/dosis/dosis-v32-latin-700.woff2') format('woff2');
 }
+
+@font-face {
+  font-family: CustomFont;
+  src: url(var(--custom-font)) format('truetype');
+}
