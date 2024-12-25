@@ -28,7 +28,7 @@ class ThemeUtility
             '--font-color' => $config['colors']['font'] ?? '__UNSET__',
             '--preview-rotation' => $config['preview']['rotation'] ?? '__UNSET__',
             '--ui-scale-result' => $config['ui']['scale_resultImage'] ? 'auto ' . $config['ui']['scale_resultImage'] . '%' : '__UNSET__',
-            '--font-family' => $config['ui']['custom_font'] ? '"CustomFont"' : '"Dosis" , sans-serif';
+            '--font-family' => $config['ui']['custom_font'] ? '"CustomFont"' : '"Dosis", sans-serif';
         ];
 
         $output = '';
